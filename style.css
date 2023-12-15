@@ -1,0 +1,79 @@
+body{
+    background: url("da.jpg");
+    background-position:center;
+    background-size:cover;
+}
+.wrapper{
+    display: flex;
+    width:900px;
+    height:550px;
+    margin: 5% auto;
+}
+.basic{
+    border: 2px solid lightblue;
+    background: transparent;
+    color:black;
+    margin-top: 2%;
+    box-shadow:1px 1px 20px rgba(0,0,0,0.5);
+    transition: 0.9s;
+}
+.price{
+    width:90px;
+    height: 80px;
+    border-radius: 50%;
+    border:1px solid lightblue;
+    box-shadow:1px 1px 20px rgba(0,0,0,0.5);
+    margin: 5% auto 0 auto;
+    text-align: center;
+}
+.deals{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.basic h1{
+    text-align: center;
+}
+.basic:hover{
+    background:rgb(150, 150, 219);
+    color:black;
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+    transform: scale(1.1);
+    z-index:1;
+    border-radius: 25px;
+}
+.basic:hover .price{
+    border-color: red;
+    background-color: #262626;
+    color: #fff;
+}
+.basic a{
+    text-decoration: none;
+    background: transparent;
+    color: black;
+    padding: 3px 50px;
+    margin:10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    border:1px solid #262626;
+    border-radius: 20px;
+}
+.fit{
+    text-align: center;
+}
+.basic:hover a{
+    background: #262626;
+    color:#fff;
+    text-decoration: none;
+    border-color: red;
+}
+p{
+    text-align: center;
+}
+.footer-tag{
+    word-spacing: 320px;
+    font-size:x-large;
+    background-color: white;
+    width: 1570px;
+}
+
+
